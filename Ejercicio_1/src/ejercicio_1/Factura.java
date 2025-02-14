@@ -17,7 +17,7 @@ public class Factura {
     private double impuesto;
     private double total;
 
-    // Constructor correcto
+    
     public Factura(String nombreCliente, int cedula, String producto, int cantidad, double precio, boolean estudiante, char tipoCliente) {
         this.nombreCliente = nombreCliente;
         this.cedula = cedula;
@@ -27,7 +27,7 @@ public class Factura {
         this.estudiante = estudiante;
         this.tipoCliente = tipoCliente;
 
-        calcularFactura(); // Calcula los valores al crear la factura
+        calcularFactura(); 
     }
 
     private void calcularFactura() {
