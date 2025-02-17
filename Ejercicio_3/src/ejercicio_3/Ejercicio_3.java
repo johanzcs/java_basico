@@ -7,7 +7,7 @@ package ejercicio_3;
 import java.util.Scanner;
 public class Ejercicio_3 {
 
-   public static void main(String[] args) {
+   public static void ascensores() {
         Scanner LimitedePeso = new Scanner(System.in); 
         int pisoActual = 1;
         int pisoMin = -1;
