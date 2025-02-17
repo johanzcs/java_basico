@@ -7,7 +7,7 @@ package ejercicio_2;
 import java.util.Scanner;
 public class Ejercicio_2 {
 
-    public static void main(String[] args) {
+    public static void ascensores() {
         Scanner Ascensor = new Scanner(System.in); 
         int pisoActual = 1; 
         int pisoMin = -2;
