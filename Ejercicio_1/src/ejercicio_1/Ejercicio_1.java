@@ -117,7 +117,7 @@ public class Ejercicio_1 {
             System.out.println("No se han ingresado los datos de la factura. Primero debe tomar los datos.");
         }
     }
-      public static void main(String[] args) {
+      public static void fin() {
         Ejercicio_1 ejercicio_1 = new Ejercicio_1();
         ejercicio_1.mostrarMenu();  
     }
