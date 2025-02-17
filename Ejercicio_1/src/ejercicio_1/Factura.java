@@ -6,16 +6,16 @@ package ejercicio_1;
 
 
 public class Factura {
-    private String nombreCliente;
-    private int cedula;
-    private String producto;
-    private int cantidad;
-    private double precio;
-    private boolean estudiante;
-    private char tipoCliente;
-    private double subtotal;
-    private double impuesto;
-    private double total;
+    public String nombreCliente;
+    public int cedula;
+    public String producto;
+    public int cantidad;
+    public double precio;
+    public boolean estudiante;
+    public char tipoCliente;
+    public double subtotal;
+    public double impuesto;
+    public double total;
 
     
     public Factura(String nombreCliente, int cedula, String producto, int cantidad, double precio, boolean estudiante, char tipoCliente) {
