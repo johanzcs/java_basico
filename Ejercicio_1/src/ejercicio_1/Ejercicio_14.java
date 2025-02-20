@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Ejercicio_14 {
 public void solicitarImpresion() {
         Scanner sc = new Scanner(System.in);
-        int capacidadPapel = 100;  // Capacidad inicial de la impresora
+        int capacidadPapel = 100;  
         int cantidadPapelRestante = capacidadPapel;
         int cantidad;
 
@@ -28,7 +28,6 @@ public void solicitarImpresion() {
                 System.out.println("Papel restante: " + cantidadPapelRestante + " páginas.");
             }
 
-            // Si no hay más papel, termina el ciclo
             if (cantidadPapelRestante == 0) {
                 System.out.println("No queda más papel en la impresora.");
                 break;
@@ -38,7 +37,7 @@ public void solicitarImpresion() {
             String respuesta = sc.next().toLowerCase();
 
             if (!respuesta.equals("si")) {
-                break;  // Si el usuario no quiere seguir imprimiendo, salimos del ciclo
+                break;  
             }
         }
 

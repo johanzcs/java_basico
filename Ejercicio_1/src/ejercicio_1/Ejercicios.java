@@ -29,6 +29,8 @@ public class Ejercicios {
             System.out.println("12-  cajero automatico ");
             System.out.println("13-  tienda en linea ");
             System.out.println("14-  solicitar una impresion ");
+            System.out.println("15-  solicitar un viaje en coche  ");
+
             opcion = solucion.nextInt();
 
             switch (opcion) {
@@ -100,6 +102,16 @@ public class Ejercicios {
                     System.out.println("\n bienvenido ejercicio14");
                     Ejercicio_14 ejercicio14 = new Ejercicio_14();
                     ejercicio14.solicitarImpresion();
+                    break;
+                    case 15:
+                    System.out.println("\n bienvenido ejercicio15");
+                    Ejercicio_15 ejercicio15 = new Ejercicio_15();
+                    ejercicio15.simularViaje(); 
+                    break;
+                    case 16:
+                    System.out.println("\n bienvenido ejercicio16");
+                    Ejercicio_16 ejercicio16 = new Ejercicio_16();
+                    ejercicio16.cuentaRegresiva(); 
                     break;
                 case 0:
                     System.out.println("Saliendo del programa...");
