@@ -28,6 +28,7 @@ public class Ejercicios {
             System.out.println("11- RESTAURANTE");
             System.out.println("12-  cajero automatico ");
             System.out.println("13-  tienda en linea ");
+            System.out.println("14-  solicitar una impresion ");
             opcion = solucion.nextInt();
 
             switch (opcion) {
@@ -94,6 +95,11 @@ public class Ejercicios {
                     System.out.println("\n bienvenido ejercicio13");
                     Ejercicio_13 ejercicio13 = new Ejercicio_13();
                     ejercicio13.realizarCompra();
+                    break;
+                    case 14:
+                    System.out.println("\n bienvenido ejercicio14");
+                    Ejercicio_14 ejercicio14 = new Ejercicio_14();
+                    ejercicio14.solicitarImpresion();
                     break;
                 case 0:
                     System.out.println("Saliendo del programa...");
