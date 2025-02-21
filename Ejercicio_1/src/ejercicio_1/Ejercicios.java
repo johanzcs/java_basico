@@ -30,6 +30,14 @@ public class Ejercicios {
             System.out.println("13-  tienda en linea ");
             System.out.println("14-  solicitar una impresion ");
             System.out.println("15-  solicitar un viaje en coche  ");
+            System.out.println("16-  solicitar una cuenta rgresiva  ");
+            System.out.println("17-  solicitar un juego de adivinanza  ");
+            System.out.println("18-  solicitar el ingreso para rgistar libors ");
+            System.out.println("19-  solicitar el menu de comidas rapidas ");
+            System.out.println("20-  solicitar verificacion de temperatura ");
+            System.out.println("21-  solicitar el resutado del examen  ");
+            System.out.println("22-  solicitar y gestionar tareas  ");
+            System.out.println("23-  solicitar el registro de ventas  ");
 
             opcion = solucion.nextInt();
 
@@ -113,6 +121,42 @@ public class Ejercicios {
                     Ejercicio_16 ejercicio16 = new Ejercicio_16();
                     ejercicio16.cuentaRegresiva(); 
                     break;
+                    case 17:
+                    System.out.println("\n bienvenido ejercicio17");
+                    Ejercicio_17 ejercicio17 = new Ejercicio_17();
+                    ejercicio17.jugar(); 
+                    break;
+                    case 18:
+                    System.out.println("\n bienvenido ejercicio18");
+                    Ejercicio_18 ejercicio18 = new Ejercicio_18();
+                    ejercicio18.registrarLibros(); 
+                    break;
+                    case 19:
+                    System.out.println("\n bienvenido ejercicio19");
+                    Ejercicio_19 ejercicio19 = new Ejercicio_19();
+                    ejercicio19.MenuComidaRrapidas();
+                    break;
+                    case 20:
+                    System.out.println("\n bienvenido ejercicio20");
+                    Ejercicio_20 ejercicio20 = new Ejercicio_20();
+                    ejercicio20.Temperatura();
+                    break;
+                    case 21:
+                    System.out.println("\n bienvenido ejercicio21");
+                    Ejercicio_21 ejercicio21 = new Ejercicio_21();
+                    ejercicio21.calcularPromedio();
+                    break;
+                    case 22:
+                    System.out.println("\n bienvenido ejercicio22");
+                    Ejercicio_22 ejercicio22 = new Ejercicio_22();
+                    ejercicio22.gestionarTareas();
+                    break;
+                    case 23:
+                    System.out.println("\n bienvenido ejercicio23");
+                    Ejercicio_23 ejercicio23 = new Ejercicio_23();
+                    ejercicio23.registrarVentas();
+                    break;
+                    
                 case 0:
                     System.out.println("Saliendo del programa...");
                     break;
