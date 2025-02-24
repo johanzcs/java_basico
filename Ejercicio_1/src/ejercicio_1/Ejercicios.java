@@ -38,6 +38,11 @@ public class Ejercicios {
             System.out.println("21-  solicitar el resutado del examen  ");
             System.out.println("22-  solicitar y gestionar tareas  ");
             System.out.println("23-  solicitar el registro de ventas  ");
+            System.out.println("24-  solicitar el registro de vehiculos  ");
+            System.out.println("25-  solicitar agregar carrito de vetas   ");
+            System.out.println("26-  solicitar  la agenda de contactos   ");
+            System.out.println("27-  solicitar  lista de numeros    ");
+            System.out.println("28-  solicitar  el proceso de las ventas    ");
 
             opcion = solucion.nextInt();
 
@@ -155,6 +160,31 @@ public class Ejercicios {
                     System.out.println("\n bienvenido ejercicio23");
                     Ejercicio_23 ejercicio23 = new Ejercicio_23();
                     ejercicio23.registrarVentas();
+                    break;
+                    case 24:
+                    System.out.println("\n bienvenido ejercicio24");
+                    Ejercicio_24 ejercicio24 = new Ejercicio_24();
+                    ejercicio24.registrarVehiculos();
+                    break;
+                    case 25:
+                    System.out.println("\n bienvenido ejercicio24");
+                    Ejercicio_25 ejercicio25 = new Ejercicio_25();
+                    ejercicio25.realizarCompra();
+                    break;
+                    case 26:
+                    System.out.println("\n bienvenido ejercicio26");
+                    Ejercicio_26 ejercicio26 = new Ejercicio_26();
+                    ejercicio26.agendaDeContactos();
+                    break;
+                    case 27:
+                    System.out.println("\n bienvenido ejercicio27");
+                    Ejercicio_27 ejercicio27 = new Ejercicio_27();
+                    ejercicio27.sumarNumeros();
+                    break;
+                    case 28:
+                    System.out.println("\n bienvenido ejercicio28");
+                    Ejercicio_28 ejercicio28 = new Ejercicio_28();
+                    ejercicio28.procesoVentas();
                     break;
                     
                 case 0:
